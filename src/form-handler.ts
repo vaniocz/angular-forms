@@ -5,13 +5,13 @@ import {Injectable, Type} from '@angular/core';
 import {FormGroup} from '@angular/forms';
 import {Event, NavigationEnd, Router, UrlTree} from '@angular/router';
 
-interface SubscribeOptions<T extends object> {
+export interface SubscribeOptions<T extends object> {
     modelClass?: Constructor<T>;
     queryParameterName?: string;
     subscribeAcrossRoutedComponentChange?: boolean;
 }
 
-interface SubmitOptions<T extends object> {
+export interface SubmitOptions<T extends object> {
     url?: UrlTree | string;
     modelClass?: Constructor<T>;
     queryParameterName?: string;

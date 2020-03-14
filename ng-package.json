@@ -4,7 +4,8 @@
   "lib": {
     "entryFile": "index.ts",
     "umdModuleIds": {
-      "serialize-ts": "serializeTs"
+      "serialize-ts": "serializeTs",
+      "qs": "qs"
     }
   },
   "whitelistedNonPeerDependencies": [""]
