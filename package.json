@@ -1,0 +1,53 @@
+{
+  "name": "@vanio-cz/angular-forms",
+  "homepage": "https://github.com/vaniocz/angular-forms#readme",
+  "version": "0.0.6",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "format": "prettier \"src/**/*.{js,ts}\" --write"
+  },
+  "devDependencies": {
+    "@4c/import-sort": "^4.3.6",
+    "@angular/common": "^9.0.6",
+    "@angular/core": "^9.0.6",
+    "@angular/forms": "^9.0.6",
+    "@angular/router": "^9.0.6",
+    "@angular/cli": "^9.0.6",
+    "@angular/compiler": "^9.0.6",
+    "@angular/compiler-cli": "^9.0.6",
+    "@angular-devkit/build-ng-packagr": "^0.900.6",
+    "ng-packagr": "^9.0.3",
+    "prettier": "^1.19.1",
+    "prettier-plugin-import-sort": "^0.0.3",
+    "serialize-ts": "github:vaniocz/serialize#fork",
+    "tslib": "^1.11.1",
+    "typescript": "~3.7.5"
+  },
+  "peerDependencies": {
+    "@angular/common": "^9.0.6",
+    "@angular/core": "^9.0.6",
+    "@angular/forms": "^9.0.6",
+    "@angular/router": "^9.0.6",
+    "serialize-ts": "github:vaniocz/serialize#fork"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": false,
+    "printWidth": 120,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "useTabs": false
+  },
+  "importSort": {
+    ".js, .ts": {
+      "parser": "typescript",
+      "style": "@4c/import-sort"
+    }
+  }
+}
