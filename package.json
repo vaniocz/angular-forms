@@ -25,7 +25,7 @@
     "@angular/compiler-cli": "^9.0.6",
     "@angular-devkit/build-ng-packagr": "^0.900.6",
     "@types/qs": "^6.9.1",
-    "ng-packagr": "^9.0.3",
+    "ng-packagr": "^10.1.1",
     "prettier": "^1.19.1",
     "prettier-plugin-import-sort": "^0.0.3",
     "serialize-ts": "github:vaniocz/serialize#fork",
