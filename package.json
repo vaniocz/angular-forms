@@ -17,7 +17,7 @@
   "devDependencies": {
     "@4c/import-sort": "^4.3.6",
     "@angular/common": "^9.0.6",
-    "@angular/core": "^9.0.6",
+    "@angular/core": "^11.0.5",
     "@angular/forms": "^9.0.6",
     "@angular/router": "^9.0.6",
     "@angular/cli": "^9.0.6",
@@ -34,7 +34,7 @@
   },
   "peerDependencies": {
     "@angular/common": "^9.0.6",
-    "@angular/core": "^9.0.6",
+    "@angular/core": "^11.0.5",
     "@angular/forms": "^9.0.6",
     "@angular/router": "^9.0.6",
     "serialize-ts": "github:vaniocz/serialize#fork"
