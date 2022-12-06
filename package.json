@@ -12,7 +12,7 @@
     "format": "prettier \"src/**/*.{js,ts}\" --write"
   },
   "dependencies": {
-    "qs": "^6.9.1"
+    "qs": "^6.9.7"
   },
   "devDependencies": {
     "@4c/import-sort": "^4.3.6",
